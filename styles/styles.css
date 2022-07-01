@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Josefin+Sans:ital,wght@1,300&family=Kanit:ital,wght@0,300;1,200&display=swap");
+p {
+  font-family: "Joan", serif;
+  color: white;
+}
+h1 {
+  font-family: "Joan", serif;
+  color: white;
+}
+h2 {
+  font-family: "Joan", serif;
+  color: white;
+}
+h3 {
+  font-family: "Joan", serif;
+  color: white;
+}
+h4 {
+  font-family: "Joan", serif;
+  color: white;
+}
+a {
+  font-family: "Joan", serif;
+}
+button {
+  font-size: 1rem;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../images/hollow-knight-wallpaper-whatspaper-4.jpg");
+  background-size: cover;
+}
+header {
+  background-color: black;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.i {
+  background-color: black;
+  width: 200px;
+  margin-left: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(197, 196, 196);
+  padding-left: 5px;
+  margin-right: 5px;
+}
+.wel {
+  margin-top: 50px;
+}
+.first-inf {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.first-inf-text {
+  width: 50%;
+}
+.b {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(12, 12, 12);
+}
+.b a {
+  text-decoration: none;
+  color: white;
+}
+.char {
+  margin-top: 200px;
+}
+.char-inf {
+  width: 65%;
+  margin: 40px auto;
+}
+.char-inf-text {
+  text-align: center;
+}
+.char-inf-text hr {
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  border-radius: 10px;
+}
+.cards-g {
+  width: 75%;
+  margin: 0 auto;
+}
+.cards-d {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-d div {
+  width: 30%;
+  background-color: rgb(74, 73, 73);
+  padding: 5px;
+  height: 370px;
+  box-shadow: 0px 0 10px 5px black;
+}
+.ih {
+  width: 200px;
+}
+.hh {
+  width: 200px;
+}
+.iq {
+  width: 150px;
+}
+.bt {
+  margin-top: 25px;
+  text-align: center;
+}
+.btn {
+  padding: 15px 15px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(0, 0, 0);
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.gs {
+  margin-top: 150px;
+}
+.gameplay-story {
+  width: 80%;
+  margin: 0 auto;
+}
+.gameplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gameplay-text {
+  width: 60%;
+}
+.gameplay-img {
+  width: 50%;
+}
+.gameplay-img img {
+  height: 300px;
+  width: 420px;
+}
+.story {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.story-img {
+  width: 50%;
+  padding-left: 10px;
+}
+.story-img img {
+  height: 320px;
+  width: 450px;
+}
+.story-text {
+  width: 60%;
+}
+.gameplay-story button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: black;
+}
+.gameplay-story button a {
+  text-decoration: none;
+  color: white;
+}
+.gameplay-story div hr {
+  width: 80px;
+  height: 2px;
+  background-color: white;
+  margin: 0;
+}
+.vid {
+  margin-top: 150px;
+}
+.video {
+  width: 70%;
+  margin: 0 auto;
+}
+.vid-text {
+  text-align: center;
+}
+.vid-text hr {
+  width: 70px;
+  height: 2px;
+  background-color: white;
+  border-radius: 10px;
+}
+.vid-vid {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.yt {
+  border-radius: 10px;
+  width: 800px;
+  height: 450px;
+}
+.follow {
+  margin-top: 80px;
+}
+.fol {
+  margin: 0 auto;
+  width: 50%;
+}
+.fol-text {
+  text-align: center;
+}
+.fol-text h1 {
+  font-size: 2rem;
+}
+.fol-input {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 100px;
+  box-shadow: 0 0 10px 5px black;
+  width: 60%;
+  background-color: black;
+  overflow: hidden;
+}
+.fol-input > * {
+  padding: 20px;
+}
+.fol-input input {
+  border: none;
+  outline: none;
+  background-color: black;
+}
+.fol-btn-in {
+  background-color: rgb(138, 138, 138);
+  border: none;
+  color: white;
+}
+.fol-input-inp {
+  width: 100%;
+}
+.input {
+  font-size: 1rem;
+  color: white;
+}
+.mfo {
+  background: linear-gradient(
+    360deg,
+    rgba(21, 20, 20, 1) 6%,
+    rgba(105, 105, 105, 1) 100%
+  );
+  margin: 0;
+}
+.footer {
+  display: flex;
+}
+.footer div {
+  width: 20%;
+}
+.footer div a {
+  display: block;
+  color: white;
+  padding-top: 10px;
+}
+.fo1 {
+  margin-left: 10px;
+}
+.fo1 img {
+  width: 100px;
+}
+.fo2 {
+  margin-left: 500px;
+}
